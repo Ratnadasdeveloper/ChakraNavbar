@@ -1,5 +1,13 @@
-import "./styles.css";
+import { Box } from "@chakra-ui/react";
+import "./App.css";
+import  Navbar  from "./component/Navbar.jsx";
 
-export default function App() {
-  return <div className="App"></div>;
+function App() {
+  return (
+    <Box>
+      <Navbar/>
+    </Box>
+  );
 }
+
+export default App;
